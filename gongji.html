@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+			padding : 0;
+			margin : 0;
+		}
+		header{
+			width : 880px;
+			height: 120px;
+			margin-top:10px;
+			//border:solid 1px red;
+			padding : 10px;
+		}
+		nav{
+			width:900px;
+			height: 50px;
+			margin : 10px 0px 10px 0px;
+			//border:solid 1px orange;
+		}
+		section{
+			width:560px;
+			height:500px;
+			float:left;
+			margin-right:18px;
+			margin-top:10px;
+			//border:solid 1px green;
+			color : #776666;
+			padding : 10px;
+		}
+		aside{
+			width : 300px;
+			height: 345px;
+			float : left;
+			margin-top:10px;
+			border : solid 2px #aaaacc;
+			border-radius: 10px;
+			background-color: #ffeeee;
+			padding: 5px;
+		}
+		footer{
+			width:900px;
+			height: 80px;
+			margin-top:10px;
+			color: #24255c;
+			//border:solid 1px purple;
+		}
+		th{
+			width: 500px;
+		}
+		#dd{
+			border-top:solid 4px pink;
+		}
+		.clear{
+			clear : both;
+		}
+
+		#page{
+			width: 1000px;
+			margin:auto;/*이게 진짜 중요함!! 이게 페이지 양쪽 자동 정렬해줌*/
+		}
+		#aa li{
+			float : right;
+			display: inline;
+			font-weight: bold;
+			color : #aa2222;
+		}
+		#ac{
+			color:red;
+			font-weight: bold;
+			font-family: cursive;
+			padding:4px;
+			font-size:15px;
+			border-radius: 5px;
+			background-color: #f6bb9e;
+		}
+		#cc{
+			text-align: center;
+			font-size : 20px;
+			font-weight: bold;
+			color : #aa8888;
+		}
+		#cc li{
+			list-style-type: none;
+			display: inline;
+			border-bottom : solid 3px #aa8888;
+			margin : 0px 10px 0px 10px;
+		}
+		#ee{
+			font-family: 궁서;
+			float:left;
+			margin:30px 0 0 20px;
+		}
+		#ff{
+			font-family: 궁서;
+			float:left;
+			margin:30px 0 0 180px;
+		}
+		#af{
+			color:#666688;
+		}
+		#ag{
+			font-size:15px;
+			font-family: 맑은고딕;
+			font-weight: bold;
+			text-decoration: underline;
+			float:right;
+			color:#666688;
+		}
+		#gg{
+			float:center;
+			color:#666688;
+			font-weight:bold;
+		}
+		.hh{
+			background-color: #eeeeff;
+			font-size: 17px;
+		}
+		.jj{
+			color:#553333;
+			font-weight: bold;
+		}
+		#ha[type="text"]
+		{
+			width: 400px;
+			padding:5px;
+		}
+                        #hb[type="text"]
+		{
+			width: 300px;
+			padding:2px;
+		}
+		.btn:hover{
+			opacity: 0.5;
+		}/*버튼에 마우스를 올려놓았을 때*/
+		.btn:active{
+			color:pink;
+		}/*버튼을 누른 시간*/
+		.ca{
+			text-decoration: none;
+			color:#aa8888;
+		}
+                        #ll{
+                                    text-decoration: none;
+			color : #aa2222;
+                        }
+	</style>
+</head>
+<body>
+	<div id="page">
+	<header>
+		<ul id ="aa">
+				<li>회사소개</li>
+			<li>ㅣ</li>
+			<li>사이트 맵</li>
+			<li>ㅣ</li>
+			<li>회원가입</li>
+			<li>ㅣ</li>
+			<li><a href="./login.html"  id="ll">로그인</a></li>
+		</ul>
+			<a href="index.html" class="ca"><div>
+				<img src="./img/logo.jpg" width="200" height="100">
+			</div></a>
+			<div id="bb">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='text' list='ad' size=50 id="ha">
+				<button type="botton" id="ac">search</button>
+				<datalist id='ad'>
+			<option label="농심">새우깡</option>
+			<option label="Kellogg Asia">프링글스</option>
+			<option label="Feng Ji Food">누가 크래커</option>
+			<option label="미성 페밀리">티롤 초코 콩가루 모찌</option>
+			<option label="PT SIANT.ARTOPTBK sidoarjo61256 Indonesia">에낙</option>
+			</div>
+	</header>
+	<nav>
+		<ul id="cc">
+			<a href="sogae.html" class="ca"><li>회사 소개</li></a>
+			<a href="sunwi.html" class="ca"><li>과자 순위</li></a>
+			<a href="bangbub.html" class="ca"><li>주문 방법</li></a>
+			<a href="event.html" class="ca"><li>까까 이벤트</li></a>
+			<a href="gongji.html" class="ca"><li>문의 사항</li></a>
+		</ul>
+	</nav>
+	<section>
+		<h3><span id="dd">공지</span>사항</h3><br>
+		<table>
+			<tr>
+				<th colspan="2" class="hh">제목</th>
+				<td class="hh">작성일</td>
+			</tr>
+			<tr>
+				<td colspan="3"><hr></td>
+			</tr>
+			<tr>
+				<td class="jj">배송 공지</td>
+				<td>지역별 배송 시간</td>
+				<td>19.12.04</td>
+			</tr>
+			<tr>
+				<td class="jj">배송 공지</td>
+				<td>배송 완료 후 사진 발송 안내</td>
+				<td>19.12.04</td>
+			</tr>
+			<tr>
+				<td class="jj">주문 공지</td>
+				<td>주문 취소 기간 안내</td>
+				<td>19.11.24</td>
+			</tr>
+			<tr>
+				<td class="jj">주문 공지</td>
+				<td>모바일 앱 주문 방법 안내</td>
+				<td>19.11.20</td>
+			</tr>
+			<tr>
+				<td class="jj">이벤트 공지</td>
+				<td>까까 수험생 이벤트 안내</td>
+				<td>19.09.28</td>
+			</tr>
+			<tr>
+				<td class="jj">이벤트 공지</td>
+				<td>까까 페이스북, 인스타 태그 이벤트 안내</td>
+				<td>19.09.28</td>
+			</tr>
+			<tr>
+				<td class="jj">이벤트 공지</td>
+				<td>까까 프로게이머 팀 창설 기념 이벤트</td>
+				<td>19.09.05</td>
+			</tr>
+		</table><br><br>
+		<form>
+			<label>제목  <input type = 'radio' name="OK"> </label>
+			<label>내용  <input type = 'radio' name="OK"> </label>
+			<input type='text' size=20 id="hb">
+			<button type="botton">검색</button>
+		</form>
+	</section>
+	<aside>
+		<span id="gg">top.10</span>
+			<table id="af">
+				<tr>
+			<td colspan="2"><h3>인기 과자 순위</h3></td>
+		</tr>
+			<!--<tr>
+					<th><button type="button">확인</button></th>
+				</tr>-->
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+			<tr>
+				<td>1</td>
+				<td>새우깡</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>에낙</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>프링글스</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>티롤 초코 콩가루 모찌</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>콘초</td>
+			</tr>
+			<tr>
+				<td>6</td>
+				<td>누가크래커</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>콘칩</td>
+			</tr>
+			<tr>
+				<td>8</td>
+				<td>바나나킥</td>
+			</tr>
+			<tr>
+				<td>9</td>
+				<td>새우깡(매운맛)</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td>포카칩</td>
+			</tr>
+			</table>
+			<span id="ag"><br><a href="sunwi.html">더보기←</a></span>
+	</aside>
+	<div class="clear"></div>
+	<footer>
+		<div id="ee">
+			대표이사 : <b>박형빈</b>ㅣ사업자 등록번호 : 123-12-12345
+		</div>
+		<div id="ff">
+			고객센터 1588-1234
+		</div>
+	</footer>
+</div>
+</body>
+</html>

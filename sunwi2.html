@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+			padding : 0;
+			margin : 0;
+		}
+		body{
+			background-image: linear-gradient(#ffffff, #ffdddd);
+		}
+		header{
+			width : 880px;
+			height: 120px;
+			margin-top:10px;
+			//border:solid 1px red;
+			padding : 10px;
+		}
+		nav{
+			width:900px;
+			height: 50px;
+			margin : 10px 0px 10px 0px;
+			//border:solid 1px orange;
+		}
+		section{
+			width:860px;
+			height:500px;
+			float:left;
+			margin-right:18px;
+			margin-top:10px;
+			//border:solid 1px green;
+			color : #776666;
+			padding : 10px;
+			background-color: #ffdddd
+		}
+		footer{
+			width:900px;
+			height: 80px;
+			margin-top:10px;
+			color: #24255c;
+			//border:solid 1px purple;
+		}
+		td{
+			width: 215px;
+			height: 125px;
+			padding: 5px;
+		}
+		.clear{
+			clear : both;
+		}
+
+		#page{
+			width: 1000px;
+			margin:auto;/*이게 진짜 중요함!! 이게 페이지 양쪽 자동 정렬해줌*/
+		}
+		#aa li{
+			float : right;
+			display: inline;
+			font-weight: bold;
+			color : #aa2222;
+		}
+		#dd{
+			float:center;
+		}
+		#ac{
+			color:red;
+			font-weight: bold;
+			font-family: cursive;
+			padding:4px;
+			font-size:15px;
+			border-radius: 5px;
+			background-color: #f6bb9e;
+		}
+		#cc{
+			text-align: center;
+			font-size : 20px;
+			font-weight: bold;
+			color : #aa8888;
+		}
+		#cc li{
+			list-style-type: none;
+			display: inline;
+			border-bottom : solid 3px #aa8888;
+			margin : 0px 10px 0px 10px;
+		}
+		#ee{
+			font-family: 궁서;
+			float:left;
+			margin:30px 0 0 20px;
+		}
+		#ff{
+			font-family: 궁서;
+			float:left;
+			margin:30px 0 0 180px;
+		}
+		.dd li{
+			list-style-type: none;
+			font-weight: bold;
+			color:#bb8888;
+		}
+		.gg{
+			text-align: right;
+			text-decoration: underline;
+			font-weight: bold;
+		}
+		#hh{
+			font-weight: bold;
+		}
+		#hh{
+			font-weight: bold;
+		}
+		#hh:link{
+			color:pink;/*미방문 링크*/
+		}
+		#hh:visited{
+			color:red;/*방문 링크*/
+		}
+		#hh:hover{
+			color : blue;/*마우스포인터 올려 놓았을 때*/
+		}
+		#hh:active{
+			color : #ffff00;/*마우스 포인터 클릭했을 때*/
+		}
+		input[type="text"]
+		{
+			width: 400px;
+			padding:5px;
+		}
+		.btn:hover{
+			opacity: 0.5;
+		}/*버튼에 마우스를 올려놓았을 때*/
+		.btn:active{
+			color:pink;
+		}/*버튼을 누른 시간*/
+		.ca{
+			text-decoration: none;
+			color:#aa8888;
+		}
+                        #ll{
+                                    text-decoration: none;
+			color : #aa2222;
+                        }
+	</style>
+</head>
+<body>
+	<div id="page">
+	<header>
+		<ul id ="aa">
+				<li>회사소개</li>
+			<li>ㅣ</li>
+			<li>사이트 맵</li>
+			<li>ㅣ</li>
+			<li>회원가입</li>
+			<li>ㅣ</li>
+			<li><a href="./login.html"  id="ll">로그인</a></li>
+		</ul>
+			<a href="index.html" class="ca"><div>
+				<img src="./img/logo.jpg" width="200" height="100">
+			</div></a>
+			<div id="bb">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='text' list='ad' size=50>
+				<button type="botton" id="ac">search</button>
+				<datalist id='ad'>
+			<option label="농심">새우깡</option>
+			<option label="Kellogg Asia">프링글스</option>
+			<option label="Feng Ji Food">누가 크래커</option>
+			<option label="미성 페밀리">티롤 초코 콩가루 모찌</option>
+			<option label="PT SIANT.ARTOPTBK sidoarjo61256 Indonesia">에낙</option>
+			</div>
+	</header>
+	<nav>
+		<ul id="cc">
+			<a href="sogae.html" class="ca"><li>회사 소개</li></a>
+			<a href="sunwi.html" class="ca"><li>과자 순위</li></a>
+			<a href="bangbub.html" class="ca"><li>주문 방법</li></a>
+			<a href="event.html" class="ca"><li>까까 이벤트</li></a>
+			<a href="gongji.html" class="ca"><li>문의 사항</li></a>
+		</ul>
+	</nav>
+	<section>
+		<table>
+			<tr>
+				<td>
+					<h3>태국</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>벤토/쥐포</li>
+						<li>타오케노이/김과자</li>
+						<li>meapple/파인애플 잼 비스킷</li>
+						<li>방콕더샵/젤리</li>
+						<li>벤토/안주</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+				<td>
+					<h3>필리핀</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>피아토스</li>
+						<li>엠와이썬 스카이 플렉스 크래커</li>
+						<li>코코넛칩</li>
+						<li>킹콘 콘스낵</li>
+						<li>스카이플레이크</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+				<td>
+					<h3>프랑스</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>크라페</li>
+						<li>폴트 타르트</li>
+						<li>SO 마카롱</li>
+						<li>라메르폴라르 샤브레 틴 쿠키</li>
+						<li>쁘띠떼꼴리에/비스킷</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+				<td>
+					<h3>이탈리아</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>사보이아르디 레이디핑거/쿠키</li>
+						<li>마리니 사보이아르디/쿠키</li>
+						<li>콜루시 통밀 크래커</li>
+						<li>미주라 통밀도너츠</li>
+						<li>크릭 크릭 크래커</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3>독일</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>모글리/스무디</li>
+						<li>트롤리 지구젤리</li>
+						<li>덱스트로 엑티브핏/포도당캔디</li>
+						<li>비타하임/포도당캔디</li>
+						<li>임팩트 민트/캔디</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+				<td>
+					<h3>핀란드</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>파제르 캐러멜 토스카</li>
+						<li>도미노 비스킷</li>
+						<li>파제르 아몬드 크럼블</li>
+						<li>무민 쿠키</li>
+						<li>온스 바/쿠키</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+				<td>
+					<h3>말레이시아</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>쿤브라더스 피넛 땅콩 크런치 비스켓</li>
+						<li>화이트캐슬 버터 쿠키</li>
+						<li>델토리 초코렛 크림쿠키</li>
+						<li>줄리스 치즈 피넛버터</li>
+						<li>오트크런치 쿠키</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+				<td>
+					<h3>브라질</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>바두코 오리지날 초코칩</li>
+						<li>바두코 더블 초코쿠키</li>
+						<li>바두코 맥시 초콜릿 웨이퍼</li>
+						<li>브라질넛/스낵바</li>
+						<li>너트와 구아라나/스낵바</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+			</tr>
+		</table><br><br><br>
+		<span><a href="sunwi.html" id="hh">1</a>/2</span>
+	</section>
+	<div class="clear"></div>
+	<footer>
+		<div id="ee">
+			대표이사 : <b>박형빈</b>ㅣ사업자 등록번호 : 123-12-12345
+		</div>
+		<div id="ff">
+			고객센터 1588-1234
+		</div>
+	</footer>
+</div>
+</body>
+</html>

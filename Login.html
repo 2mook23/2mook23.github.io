@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+			padding : 0;
+			margin : 0;
+		}
+		header{
+			width : 880px;
+			height: 120px;
+			margin-top:10px;
+			//border:solid 1px red;
+			padding : 10px;
+		}
+		nav{
+			width:900px;
+			height: 50px;
+			margin : 10px 0px 10px 0px;
+			//border:solid 1px orange;
+		}
+		section{
+			width:860px;
+			height:500px;
+			float:left;
+			margin-right:18px;
+			margin-top:10px;
+			//border:solid 1px green;
+			color : #776666;
+			padding : 10px;
+		}
+		footer{
+			width:900px;
+			height: 80px;
+			margin-top:10px;
+			color: #24255c;
+			//border:solid 1px purple;
+		}.clear{
+			clear : both;
+		}
+
+		#page{
+			width: 1000px;
+			margin:auto;/*이게 진짜 중요함!! 이게 페이지 양쪽 자동 정렬해줌*/
+		}
+		#aa li{
+			float : right;
+			display: inline;
+			font-weight: bold;
+			color : #aa2222;
+		}
+		#dd{
+			float:center;
+		}
+		#ac{
+			color:red;
+			font-weight: bold;
+			font-family: cursive;
+			padding:4px;
+			font-size:15px;
+			border-radius: 5px;
+			background-color: #f6bb9e;
+		}
+		#cc{
+			text-align: center;
+			font-size : 20px;
+			font-weight: bold;
+			color : #aa8888;
+		}
+		#cc li{
+			list-style-type: none;
+			display: inline;
+			border-bottom : solid 3px #aa8888;
+			margin : 0px 10px 0px 10px;
+		}
+		#ee{
+			font-family: 궁서;
+			float:left;
+			margin:30px 0 0 20px;
+		}
+		#ff{
+			font-family: 궁서;
+			float:left;
+			margin:30px 0 0 180px;
+		}
+		#fa[type="text"]
+		{
+			width: 400px;
+			padding:5px;
+		}
+		.btn:hover{
+			opacity: 0.5;
+		}/*버튼에 마우스를 올려놓았을 때*/
+		.btn:active{
+			color:pink;
+		}/*버튼을 누른 시간*/
+		.ca{
+			text-decoration: none;
+			color:#aa8888;
+		}
+		#gg{
+			border : solid 1px #ffdddd;
+			width: 300px;
+			padding : 15px;
+			border-radius: 10px;
+			font-family: "맑은고딕", "돋움";
+                                    margin-left : 285px;
+                                    margin-top : 150px;
+                                    background-color : #ffdddd;
+		}
+		table{
+			font-weight : bold;
+		}
+		#hh{
+			font-size : 30px;
+			font-weight : bold;
+			#664444;
+		}
+		#ii{
+			height: 60px;
+			width: 500px
+			margin : 10px;
+			border-radius: 10px;
+                                    background-color : #ffffff;
+		}
+		#jj{
+			font-weight: bold;
+		}
+		.kk{
+			text-decoration: underline;
+			padding-right: 10px;/*회원가입하고 아이디 사이 간격*/
+		}
+                        #ll{
+                                    text-decoration: none;
+			color : #aa2222;
+                        }
+	</style>
+</head>
+<body>
+	<div id="page">
+	<header>
+		<ul id ="aa">
+				<li>회사소개</li>
+			<li>ㅣ</li>
+			<li>사이트 맵</li>
+			<li>ㅣ</li>
+			<li>회원가입</li>
+			<li>ㅣ</li>
+			<li><a href="./login.html"  id="ll">로그인</a></li>
+		</ul>
+			<a href="index.html" class="ca"><div>
+				<img src="./img/logo.jpg" width="200" height="100">
+			</div></a>
+			<div id="bb">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='text' id="fa" list='ad' size=50>
+				<button type="botton" id="ac">search</button>
+				<datalist id='ad'>
+			<option label="농심">새우깡</option>
+			<option label="Kellogg Asia">프링글스</option>
+			<option label="Feng Ji Food">누가 크래커</option>
+			<option label="미성 페밀리">티롤 초코 콩가루 모찌</option>
+			<option label="PT SIANT.ARTOPTBK sidoarjo61256 Indonesia">에낙</option>
+			</div>
+	</header>
+	<nav>
+		<ul id="cc">
+			<a href="sogae.html" class="ca"><li>회사 소개</li></a>
+			<a href="sunwi.html" class="ca"><li>과자 순위</li></a>
+			<a href="bangbub.html" class="ca"><li>주문 방법</li></a>
+			<a href="event.html" class="ca"><li>까까 이벤트</li></a>
+			<a href="gongji.html" class="ca"><li>문의 사항</li></a>
+		</ul>
+	</nav>
+	<section>
+		<table id="gg">
+		<tr>
+			<td colspan=3 id="hh">Member Login</td>
+		</tr>
+		<tr>
+			<td>ID</td>
+			<td><input type=text></td>
+			<td rowspan=2><button id="ii">로그인</button></td>
+		</tr>
+		<tr>
+			<td>PW</td>
+			<td><input type=password></td>
+		</tr>
+		<tr>
+			<td colspan="3" id="jj"><span class='kk'>회원가입</span><span class="kk">아이디/비밀번호 찾기</span></td>
+		</tr>
+	</table>
+	</section>
+	<div class="clear"></div>
+	<footer>
+		<div id="ee">
+			대표이사 : <b>박형빈</b>ㅣ사업자 등록번호 : 123-12-12345
+		</div>
+		<div id="ff">
+			고객센터 1588-1234
+		</div>
+	</footer>
+</div>
+</body>
+</html>

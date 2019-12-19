@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+			padding : 0;
+			margin : 0;
+		}
+		header{
+			width : 880px;
+			height: 120px;
+			margin-top:10px;
+			//border:solid 1px red;
+			padding : 10px;
+		}
+		section
+		{
+			width:860px;
+			height:500px;
+			float:left;
+			margin-right:18px;
+			margin-top:10px;
+			//border:solid 1px green;
+			color : #776666;
+			padding : 10px;
+			background-image: url('sc/gutt.jpg');
+			background-repeat : no-repeat;
+			background-position : center;
+		}
+		footer{
+			width:900px;
+			height: 80px;
+			margin-top:10px;
+			color: #24255c;
+			//border:solid 1px purple;
+		}
+		aside{
+			//border:solid 1px red;
+			width:400px;
+			height: 200px;
+			margin-top: 130px;
+			margin-left: 230px;
+			background-image: url('sc/event.jpg');
+			background-repeat : no-repeat;
+			background-position : center;
+		}
+		.clear{
+			clear : both;
+		}
+
+		#page{
+			width: 1000px;
+			margin:auto;/*이게 진짜 중요함!! 이게 페이지 양쪽 자동 정렬해줌*/
+		}
+		#aa li{
+			float : right;
+			display: inline;
+			font-weight: bold;
+			color : #aa2222;
+		}
+		#dd{
+			float:center;
+		}
+		#ac{
+			color:red;
+			font-weight: bold;
+			font-family: cursive;
+			padding:4px;
+			font-size:15px;
+			border-radius: 5px;
+			background-color: #f6bb9e;
+		}
+		#cc{
+			text-align: center;
+			font-size : 20px;
+			font-weight: bold;
+			color : #aa8888;
+		}
+		#cc li{
+			list-style-type: none;
+			display: inline;
+			border-bottom : solid 3px #aa8888;
+			margin : 0px 10px 0px 10px;
+		}
+		#ee{
+			font-family: 궁서;
+			float:left;
+			margin:30px 0 0 20px;
+		}
+		#ff{
+			font-family: 궁서;
+			float:left;
+			margin:30px 0 0 180px;
+		}
+		input[type="text"]
+		{
+			width: 400px;
+			padding:5px;
+		}
+		button:hover{
+			opacity: 0.5;
+		}/*버튼에 마우스를 올려놓았을 때*/
+		button:active{
+			color:pink;
+		}/*버튼을 누른 시간*/
+		#gg{
+			text-align: center;
+		}
+		button{
+			padding : 8px;
+			text-align: center;
+			border-radius: 4px;
+			background-color: pink;
+			font-size: 15px;
+			border:none;
+		}
+		a{
+			color: #553333;
+			font-weight: bold;
+			text-decoration: none;
+		}
+                        #ll{
+                                    text-decoration: none;
+			color : #aa2222;
+                        }
+	</style>
+</head>
+<body>
+	<div id="page">
+	<header>
+		<ul id ="aa">
+				<li>회사소개</li>
+			<li>ㅣ</li>
+			<li>사이트 맵</li>
+			<li>ㅣ</li>
+			<li>회원가입</li>
+			<li>ㅣ</li>
+			<li><a href="./login.html"  id="ll">로그인</a></li>
+		</ul>
+			<a href="index.html" class="ca"><div>
+				<img src="./img/logo.jpg" width="200" height="100">
+			</div></a>
+	</header>
+	<section>
+		<aside>
+			<br><br><br><br><br><br>
+			<div id="gg">
+				<button type="button" id="da"><a href="event.html">입장</a></button>
+			</div>
+		</aside>
+	</section>
+	<div class="clear"></div>
+	<footer>
+		<div id="ee">
+			대표이사 : <b>박형빈</b>ㅣ사업자 등록번호 : 123-12-12345
+		</div>
+		<div id="ff">
+			고객센터 1588-1234
+		</div>
+	</footer>
+</div>
+</body>
+</html>

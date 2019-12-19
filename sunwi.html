@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+			padding : 0;
+			margin : 0;
+		}
+		body{
+			background-image: linear-gradient(#ffffff, #ffdddd);
+		}
+		header{
+			width : 880px;
+			height: 120px;
+			margin-top:10px;
+			//border:solid 1px red;
+			padding : 10px;
+		}
+		nav{
+			width:900px;
+			height: 50px;
+			margin : 10px 0px 10px 0px;
+			//border:solid 1px orange;
+		}
+		section{
+			width:860px;
+			height:500px;
+			float:left;
+			margin-right:18px;
+			margin-top:10px;
+			//border:solid 1px green;
+			color : #776666;
+			padding : 10px;
+			background-color: #ffdddd
+		}
+		footer{
+			width:900px;
+			height: 80px;
+			margin-top:10px;
+			color: #24255c;
+			//border:solid 1px purple;
+		}
+		td{
+			width: 215px;
+			height: 125px;
+			padding: 5px;
+		}
+		.clear{
+			clear : both;
+		}
+
+		#page{
+			width: 1000px;
+			margin:auto;/*이게 진짜 중요함!! 이게 페이지 양쪽 자동 정렬해줌*/
+		}
+		#aa li{
+			float : right;
+			display: inline;
+			font-weight: bold;
+			color : #aa2222;
+		}
+		#dd{
+			float:center;
+		}
+		#ac{
+			color:red;
+			font-weight: bold;
+			font-family: cursive;
+			padding:4px;
+			font-size:15px;
+			border-radius: 5px;
+			background-color: #f6bb9e;
+		}
+		#cc{
+			text-align: center;
+			font-size : 20px;
+			font-weight: bold;
+			color : #aa8888;
+		}
+		#cc li{
+			list-style-type: none;
+			display: inline;
+			border-bottom : solid 3px #aa8888;
+			margin : 0px 10px 0px 10px;
+		}
+		#ee{
+			font-family: 궁서;
+			float:left;
+			margin:30px 0 0 20px;
+		}
+		#ff{
+			font-family: 궁서;
+			float:left;
+			margin:30px 0 0 180px;
+		}
+		.dd li{
+			list-style-type: none;
+			font-weight: bold;
+			color:#bb8888;
+		}
+		.gg{
+			text-align: right;
+			text-decoration: underline;
+			font-weight: bold;
+		}
+		#hh{
+			font-weight: bold;
+		}
+		#hh:link{
+			color:pink;/*미방문 링크*/
+		}
+		#hh:visited{
+			color:red;/*방문 링크*/
+		}
+		#hh:hover{
+			color : blue;/*마우스포인터 올려 놓았을 때*/
+		}
+		#hh:active{
+			color : #ffff00;/*마우스 포인터 클릭했을 때*/
+		}
+		input[type="text"]
+		{
+			width: 400px;
+			padding:5px;
+		}
+		.btn:hover{
+			opacity: 0.5;
+		}/*버튼에 마우스를 올려놓았을 때*/
+		.btn:active{
+			color:pink;
+		}/*버튼을 누른 시간*/
+		.ca{
+			text-decoration: none;
+			color:#aa8888;
+		}
+                        #ll{
+                                    text-decoration: none;
+			color : #aa2222;
+                        }
+	</style>
+</head>
+<body>
+	<div id="page">
+	<header>
+		<ul id ="aa">
+				<li>회사소개</li>
+			<li>ㅣ</li>
+			<li>사이트 맵</li>
+			<li>ㅣ</li>
+			<li>회원가입</li>
+			<li>ㅣ</li>
+			<li><a href="./login.html"  id="ll">로그인</a></li>
+		</ul>
+			<a href="index.html" class="ca"><div>
+				<img src="./img/logo.jpg" width="200" height="100">
+			</div></a>
+			<div id="bb">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='text' list='ad' size=50>
+				<button type="botton" id="ac">search</button>
+				<datalist id='ad'>
+			<option label="농심">새우깡</option>
+			<option label="Kellogg Asia">프링글스</option>
+			<option label="Feng Ji Food">누가 크래커</option>
+			<option label="미성 페밀리">티롤 초코 콩가루 모찌</option>
+			<option label="PT SIANT.ARTOPTBK sidoarjo61256 Indonesia">에낙</option>
+			</div>
+	</header>
+	<nav>
+		<ul id="cc">
+			<a href="sogae.html" class="ca"><li>회사 소개</li></a>
+			<a href="sunwi.html" class="ca"><li>과자 순위</li></a>
+			<a href="bangbub.html" class="ca"><li>주문 방법</li></a>
+			<a href="event.html" class="ca"><li>까까 이벤트</li></a>
+			<a href="gongji.html" class="ca"><li>문의 사항</li></a>
+		</ul>
+	</nav>
+	<section>
+		<table>
+			<tr>
+				<td>
+					<h3>미국</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>프링글스</li>
+						<li>몰티저스 초코볼</li>
+						<li>레이즈 솔트 앤비네가</li>
+						<li>트위즐러 젤리</li>
+						<li>m&m</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+				<td>
+					<h3>한국</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>새우깡</li>
+						<li>홈런볼</li>
+						<li>콘칩</li>
+						<li>바나나킥</li>
+						<li>치토스</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+				<td>
+					<h3>일본</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>도쿄 밀크 치즈팩토리</li>
+						<li>고마 타마고</li>
+						<li>요쿠모쿠 시가루 쿠키</li>
+						<li>랑그리 크림샌드</li>
+						<li>카프리코</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+				<td>
+					<h3>중국</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>오인 월병</li>
+						<li>홍고추 땅콩 볶음</li>
+						<li>왕자이 왕왕센베이/쌀과자</li>
+						<li>미짜오/대추 젤리</li>
+						<li>사치마/중국 전통 간식</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h3>러시아</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>알룐카 밀크초콜렛</li>
+						<li>아트패션 다크초콜렛 스틱</li>
+						<li>아트패션 밀크초콜렛 스틱</li>
+						<li>맥시바 파쿠르/초콜릿</li>
+						<li>나카야마/케익</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+				<td>
+					<h3>영국</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>처칠스캔디</li>
+						<li>진저레몬크림</li>
+						<li>믹스업 치즈맛 스낵</li>
+						<li>다잊스티브 오리지날</li>
+						<li>워커스 숏브레드 쿠키</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+				<td>
+					<h3>터키</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>큘루올루 피스마니에/솜사탕</li>
+						<li>큘루올루 피스타치오 바클 라바</li>
+						<li>큘루올루 터키 크랜베리 체리</li>
+						<li>엘반 토픽스 사우어 캔디</li>
+						<li>애니 프레첼</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+				<td>
+					<h3>호주</h3>
+					<ul class="dd">
+						<li>&nbsp;</li>
+						<li>린트 스위스클래식 밀크</li>
+						<li>문스 초콜릿</li>
+						<li>토블론/밀크 초콜릿</li>
+						<li>린도볼/린트 초콜렛</li>
+						<li>담터/핫초코</li>
+						<li class="gg">더보기←</li>
+					</ul>
+				</td>
+			</tr>
+		</table><br><br>
+		<span>1/<a href="sunwi2.html" id="hh">2</a></span>
+	</section>
+	<div class="clear"></div>
+	<footer>
+		<div id="ee">
+			대표이사 : <b>박형빈</b>ㅣ사업자 등록번호 : 123-12-12345
+		</div>
+		<div id="ff">
+			고객센터 1588-1234
+		</div>
+	</footer>
+</div>
+</body>
+</html>

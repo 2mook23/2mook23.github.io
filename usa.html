@@ -1,0 +1,256 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*{
+			padding : 0;
+			margin : 0;
+		}
+		body{
+			background-image: linear-gradient(#ffffff, #ddbbbb);
+		}
+		header{
+			width : 880px;
+			height: 120px;
+			margin-top:10px;
+			//border:solid 1px red;
+			padding : 10px;
+		}
+		nav{
+			width:900px;
+			height: 50px;
+			margin : 10px 0px 10px 0px;
+			//border:solid 1px orange;
+		}
+		section{
+			width:860px;
+			height:1300px;
+			float:left;
+			margin-right:18px;
+			margin-top:10px;
+			//border:solid 1px green;
+			color : #776666;
+			padding : 10px;
+		}
+		footer{
+			width:900px;
+			height: 80px;
+			margin-top:10px;
+			color: #24255c;
+			//border:solid 1px purple;
+		}.clear{
+			clear : both;
+		}
+
+		#page{
+			width: 1000px;
+			margin:auto;/*이게 진짜 중요함!! 이게 페이지 양쪽 자동 정렬해줌*/
+		}
+		#aa li{
+			float : right;
+			display: inline;
+			font-weight: bold;
+			color : #aa2222;
+		}
+		#dd{
+			float:center;
+		}
+		#ac{
+			color:red;
+			font-weight: bold;
+			font-family: cursive;
+			padding:4px;
+			font-size:15px;
+			border-radius: 5px;
+			background-color: #f6bb9e;
+		}
+		#cc{
+			text-align: center;
+			font-size : 20px;
+			font-weight: bold;
+			color : #aa8888;
+		}
+		#cc li{
+			list-style-type: none;
+			display: inline;
+			border-bottom : solid 3px #aa8888;
+			margin : 0px 10px 0px 10px;
+		}
+		.dd{
+			width : 286px;
+			height: 333px;
+			//border: solid 1px black;
+			text-align: center;
+		}
+		#ee{
+			font-family: 궁서;
+			float:left;
+			margin:30px 0 0 20px;
+		}
+		#ff{
+			font-family: 궁서;
+			float:left;
+			margin:30px 0 0 180px;
+		}
+		input[type="text"]
+		{
+			width: 400px;
+			padding:5px;
+		}
+		#fa:hover{
+			opacity: 0.5;
+		}/*버튼에 마우스를 올려놓았을 때*/
+		#fa:active{
+			color:pink;
+		}/*버튼을 누른 시간*/
+		.ca{
+			text-decoration: none;
+			color:#aa8888;
+		}
+        #ll{
+            text-decoration: none;
+			color : #aa2222;
+        }
+        #gg{
+        	width: 350px;
+        	height: 120px;
+        	margin: 60px 250px;
+        	border : solid 1px white;
+        	border-radius: 40px;
+        	font-size: 40px;
+        	font-weight: bold;
+        	color : #553333;
+        	font-family: 궁서;
+        }
+        .da{
+        	font-weight: bold;
+        	font-size: 20px;
+        }
+        .db:hover{
+        	opacity: 0.7;
+        }
+        .db:active{
+        	image-rendering: url(./img/pring.jpg);
+        }
+        .dc{
+        	font-size: 15px;
+        	font-weight: bold;
+        }
+        .de{
+        	font-size: 15px;
+        }
+	</style>
+</head>
+<body>
+	<div id="page">
+	<header>
+		<ul id ="aa">
+				<li>회사소개</li>
+			<li>ㅣ</li>
+			<li>사이트 맵</li>
+			<li>ㅣ</li>
+			<li>회원가입</li>
+			<li>ㅣ</li>
+			<li><a href="./login.html"  id="ll">로그인</a></li>
+		</ul>
+			<a href="index.html" class="ca"><div>
+				<img src="./img/logo.jpg" width="200" height="100">
+			</div></a>
+			<div id="bb">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='text' list='ad' size=50>
+				<button type="botton" id="ac">search</button>
+				<datalist id='ad'>
+			<option label="농심">새우깡</option>
+			<option label="Kellogg Asia">프링글스</option>
+			<option label="Feng Ji Food">누가 크래커</option>
+			<option label="미성 페밀리">티롤 초코 콩가루 모찌</option>
+			<option label="PT SIANT.ARTOPTBK sidoarjo61256 Indonesia">에낙</option>
+			</div>
+	</header>
+	<nav>
+		<ul id="cc">
+			<a href="sogae.html" class="ca"><li>회사 소개</li></a>
+			<a href="sunwi.html" class="ca"><li>과자 순위</li></a>
+			<a href="bangbub.html" class="ca"><li>주문 방법</li></a>
+			<a href="event.html" class="ca"><li>까까 이벤트</li></a>
+			<a href="gongji.html" class="ca"><li>문의 사항</li></a>
+		</ul>
+	</nav>
+	<section>
+		<table>
+			<tr>
+				<td class="dd">
+					<img src="./img/pring2.jpg" width="200" class="db"><br><br>
+					<span class="da">프링글스</span><br>
+					<span class="de">프링글스 오리지날 부터 또띠아 까지 110g 12종</span><br>
+					<span class="dc">20000원</span><br><input type="checkbox">
+				</td>
+				<td class="dd">
+					<img src="./img/molti.jpg" width="200" class="db"><br><br>
+					<span class="da">몰티저스 초코볼</span><br>
+					<span class="de">마스 몰티져스 대용량 초코볼 파티버켓 465g </span><br>
+					<span class="dc">8900원</span><br><input type="checkbox">
+				</td>
+				<td class="dd">
+					<img src="./img/lays.jpg" width="140" class="db"><br><br>
+					<span class="da">Lays 레이스</span><br>
+					<span class="de">Lays 레이스 팝 파블 씨 솔트맛 감자칩(142g) x4 </span><br>
+					<span class="dc">55000원</span><br><input type="checkbox">
+				</td>
+			</tr>
+			<tr>
+				<td class="dd">
+					<img src="./img/twizz.jpg" width="110" class="db"><br><br>
+					<span class="da">트위즐러 젤리</span><br>
+					<span class="de">TWIZZLERS 트위즐러 스윗앤 사워 9팩 </span><br>
+					<span class="dc">13000원</span><br><input type="checkbox">
+				</td>
+				<td class="dd">
+					<img src="./img/mm.jpg" width="110" class="db"><br><br>
+					<span class="da">m&m</span><br>
+					<span class="de">[미국 직배송] 엠엔엠 M&M 272.2g</span><br>
+					<span class="dc">21900원</span><br><input type="checkbox">
+				</td>
+				<td class="dd">
+					<img src="./img/cc.jpg" width="110" class="db"><br><br>
+					<span class="da">아몬드 초콜릿</span><br>
+					<span class="de">커클랜드 밀크 초콜릿 아몬드 초코볼 1.36kg </span><br>
+					<span class="dc">5900원</span><br><input type="checkbox">
+				</td>
+			</tr>
+			<tr>
+				<td class="dd">
+					<img src="./img/wack.jpg" width="200" class="db"><br><br>
+					<span class="da">왁스병 캔디</span><br>
+					<span class="de"> 미국 닉클립 왁스병 캔디 4개입 9팩 350g </span><br>
+					<span class="dc">19800원</span><br><input type="checkbox">
+				</td>
+				<td class="dd">
+					<img src="./img/welch.jpg" width="200" class="db"><br><br>
+					<span class="da">웰치스 젤리</span><br>
+					<span class="de"> 웰치스 프루트 젤리 리듀스 슈가 미국과자 181g 4팩</span><br>
+					<span class="dc">24000원</span><br><input type="checkbox">
+				</td>
+				<td class="dd">
+					<img src="./img/dori.jpg" width="150" class="db"><br><br>
+					<span class="da">도리토스</span><br>
+					<span class="de"> 미국 도리토스 플레이밍 핫 나초 미국과자 Doritos 276g 3팩</span><br>
+					<span class="dc">38000원</span><br><input type="checkbox">
+				</td>
+			</tr>
+		</table>
+		<a href="./Login.html" id="fa"><button type="button" id="gg">장바구니 담기</button></a>
+	</section>
+	<div class="clear"></div>
+	<footer>
+		<div id="ee">
+			대표이사 : <b>박형빈</b>ㅣ사업자 등록번호 : 123-12-12345
+		</div>
+		<div id="ff">
+			고객센터 1588-1234
+		</div>
+	</footer>
+</div>
+</body>
+</html>
